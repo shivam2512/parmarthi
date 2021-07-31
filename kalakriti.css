@@ -1,0 +1,334 @@
+.u-section-1 {
+  min-height: 302px;
+}
+
+.u-section-1 .u-group-1 {
+  min-height: 302px;
+  margin-top: 0;
+  margin-bottom: 0;
+  transition-duration: 2.75s;
+}
+
+.u-section-1 .u-image-1 {
+  background-image: url("https://cdn2.vectorstock.com/i/1000x1000/36/86/indian-background-in-national-colors-flag-vector-4753686.jpg");
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 16px 0;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: Aclonica;
+  text-shadow: -2px 2px 8px rgba(128,128,128,1);
+  animation-duration: 1000ms;
+  font-weight: 700;
+  margin: 8px 30px -4px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-group-1 {
+    background-position: 50% 50%;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}.u-section-2 {
+  background-image: url("https://www.teahub.io/photos/full/11-118359_tiranga-wallpapers-indian-flag-tiranga-background-image-hd.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 1243px;
+}
+
+.u-section-2 .u-group-1 {
+  width: 552px;
+  min-height: 236px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  margin: 38px 38px 0 auto;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 20px 22px 30px;
+}
+
+.u-section-2 .u-text-1 {
+  font-size: 3.75rem;
+  background-image: none;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 0 18px;
+}
+
+.u-section-2 .u-btn-1 {
+  border-style: solid;
+  font-size: 1.5625rem;
+  letter-spacing: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 27px auto 0;
+  padding: 10px 24px 10px 22px;
+}
+
+.u-section-2 .u-group-2 {
+  min-height: 382px;
+  width: 550px;
+  margin: 0 auto 0 0;
+}
+
+.u-section-2 .u-container-layout-2 {
+  padding: 0;
+}
+
+.u-section-2 .u-text-2 {
+  font-family: Oswald, sans-serif;
+  font-size: 3.75rem;
+  margin: 15px 46px 0;
+}
+
+.u-section-2 .u-btn-2 {
+  border-style: solid;
+  letter-spacing: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-image: none;
+  font-size: 1.5rem;
+  margin: 6px auto 0;
+  padding: 9px 16px 11px;
+}
+
+.u-section-2 .u-group-3 {
+  width: 552px;
+  min-height: 350px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  margin: 0 38px 60px auto;
+}
+
+.u-section-2 .u-container-layout-3 {
+  padding: 30px 40px;
+}
+
+.u-section-2 .u-text-3 {
+  font-weight: 300;
+  font-size: 3.75rem;
+  text-transform: none;
+  letter-spacing: normal;
+  margin: 9px 0 0;
+}
+
+.u-section-2 .u-custom-html-1 {
+  margin: 20px auto 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 1025px;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 785px;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-right: 0;
+  }
+
+  .u-section-2 .u-container-layout-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 589px;
+  }
+
+  .u-section-2 .u-group-1 {
+    width: 540px;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .u-section-2 .u-group-2 {
+    width: 540px;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-right: 40px;
+    padding-left: 20px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-left: 41px;
+    margin-right: 41px;
+  }
+
+  .u-section-2 .u-group-3 {
+    width: 540px;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-container-layout-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 931px;
+  }
+
+  .u-section-2 .u-group-1 {
+    min-height: 192px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-group-2 {
+    min-height: 291px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-right: 20px;
+  }
+
+  .u-section-2 .u-text-2 {
+    font-size: 1.5rem;
+    width: auto;
+    margin-top: 57px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-btn-2 {
+    margin-top: 77px;
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-group-3 {
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-2 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-text-3 {
+    width: auto;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}.u-section-3 {
+  background-image: url("https://i.pinimg.com/originals/ff/5a/a9/ff5aa9f0387f70a6bf710caeb45ee699.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 492px;
+}
+
+.u-section-3 .u-text-1 {
+  font-size: 3rem;
+  font-weight: 700;
+  background-image: none;
+  text-transform: none;
+  margin: 60px auto 0;
+}
+
+.u-section-3 .u-accordion-1 {
+  margin-bottom: 60px;
+  margin-top: 75px;
+}
+
+.u-section-3 .u-accordion-link-1 {
+  background-image: none;
+  font-weight: 700;
+  padding: 25px 30px;
+}
+
+.u-section-3 .u-icon-1 {
+  height: 17px;
+  width: 17px;
+}
+
+.u-section-3 .u-accordion-pane-1 {
+  min-height: 150px;
+  background-image: none;
+}
+
+.u-section-3 .u-container-layout-1 {
+  padding: 20px 30px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-text-1 {
+    width: 565px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-text-1 {
+    width: 540px;
+  }
+
+  .u-section-3 .u-accordion-1 {
+    margin-top: 100px;
+  }
+
+  .u-section-3 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 4097px;
+  }
+
+  .u-section-3 .u-text-1 {
+    font-size: 1.5rem;
+    width: 340px;
+  }
+
+  .u-section-3 .u-accordion-1 {
+    width: 340px;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
