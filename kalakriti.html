@@ -177,7 +177,42 @@ span.psw {
 }
 </style>
 	
-	  
+<script>
+    function AddRow()
+    {
+      var firstname = document.getElementById("firstname").value;
+      var lastname = document.getElementById("lastname").value;
+      var address = document.getElementById("address").value;
+      var city = document.getElementById("city").value;
+      var state = document.getElementById("state").value;
+      var zip = document.getElementById("zip").value;
+      google.script.run.AddRecord(firstname, lastname, address, city, state, zip);
+      document.getElementById("firstname").value = '';
+      document.getElementById("lastname").value = '';
+      document.getElementById("address").value = '';
+      document.getElementById("city").value = '';
+      document.getElementById("state").value = '';
+      document.getElementById("zip").value = '';
+    }
+    function LoginUser()
+    {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    
+    google.script.run.withSuccessHandler(function(output) 
+    {
+      if(output == 'TRUE')
+      {
+        document.getElementById("loginDisplay").style.display = "none";
+        document.getElementById("dataDisplay").style.display = "block";     
+      }
+      else if(output == 'FALSE')
+      {
+        document.getElementById("errorMessage").innerHTML = "Failed to Login";     
+      }    
+    }).checkLogin(username, password);
+    }
+    </script>	  
 	  
   </head>
   <body class="u-body"><header class="u-align-center-sm u-align-center-xs u-clearfix u-header u-header" id="sec-5541"><div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
@@ -303,7 +338,32 @@ var x = setInterval(function() {
     </div>
 
     <div class="container">
-      <label for="uname"><b>Username</b></label>
+	    <h1>Login Web App Form</h1>
+  <div id="loginDisplay" >
+    <label>User Name</label><br>
+    <input type="text" id="username" /><br>
+    <label>Password</label><br>
+    <input type="password" id="password" /><br>
+    <input type="button" value="Login" onclick="LoginUser()" /><br>
+    <span id="errorMessage" style="color: red" ></span>
+  </div>
+  <hr>
+  <div style="display:none"  id="dataDisplay"  >
+    <label>First Name</label><br>
+    <input type="text" id="firstname" /><br>
+    <label>Last Name</label><br>
+    <input type="text" id="lastname" /><br>
+    <label>Street Address</label><br>
+    <input type="text" id="address" /><br>
+    <label>City</label><br>
+    <input type="text" id="city" /><br>
+    <label>State</label><br>
+    <input type="text" id="state" /><br>
+    <label>Zip</label><br>
+    <input type="text" id="zip" /><br>
+    <input type="button" value="Add" onclick="AddRow()" />
+  </div>
+   <!--   <label for="uname"><b>Username</b></label>
       <input type="text" placeholder="Enter Username" name="uname" required>
 
       <label for="psw"><b>Password</b></label>
@@ -313,7 +373,7 @@ var x = setInterval(function() {
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
-    </div>
+    </div> -->
 
     <div class="container" style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
