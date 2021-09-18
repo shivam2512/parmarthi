@@ -228,16 +228,20 @@
                   <div style="height: auto;  min-width: auto" class="filter shado-2 inner-cint">
                     <b> <i class="fa fa-send"></i> ⁠</b>
 
-   <iframe src="https://forms.gle/bToFmyRxAtZFwGLC7"
-        width="auto" height="auto" 
+   <iframe id="gform" src="https://docs.google.com/forms/d/e/1FAIpQLSeaiWCc598b3beFhYraf4nNsLgG3bXby_Qne93rHy_Mb_8UIA/viewform?embedded=true" width="640" height="487" frameborder="0" marginheight="0" marginwidth="0" style="margin:0 auto; max-width:100%;">Loading…</iframe>
 
-        frameborder="0" marginheight="0"
+<script type="text/javascript">
+var load = 0;
 
-        marginwidth="0"> 
-
-        Loading… 
-
-    </iframe>               
+document.getElementById('gform').onload = function(){
+    /*Execute on every reload on iFrame*/
+    load++;
+    if(load > 1){
+        /*Second reload is a submit*/
+        document.location = "https://parmarthi.netlify.app";
+    }
+}
+</script>
 
                 </div>
 
